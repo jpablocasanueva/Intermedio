@@ -1,0 +1,6 @@
+Mi nombre es Jose
+Mi apellido es Casanueva
+42 años
+Y mi lenguaje favor es Python
+Aunque tambien me gusta PHP
+Aunque tambien me gusta PHP
