@@ -48,7 +48,42 @@ print(json_dict["name"])
 
 
 #csv file
+import csv
+son_text = {
+    "name":"Bruno",
+    "surname":"Casanueva",
+    "age":"8",
+    "languages": ["CatCode", "DogCode","Python"],
+    "website": "brucethecat.com"}
+
+csv_file = open('csv_file.csv', "+w")
+csv_writer = csv.writer(csv_file)
+csv_writer.writerow(["name","surname","age","language","website"])
+csv_writer.writerow(["Bruno","Casanueva",8,"CatCode","brucethecat.com"])
+csv_writer.writerow(["Oso","Casanueva",3,"DogCode","OzzyOsburne.com"])
+csv_file.close()
+
+with open("csv_file.csv") as jaison:
+    for line in jaison.readlines():
+        print(line)
+
 
 #xlsx file
+# import xlsrd  debe instalarse el modulo
+
 
 #xml file
+# import xml
+
+
+
+
+
+
+
+
+
+
+
+
+
