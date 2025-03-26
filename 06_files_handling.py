@@ -67,7 +67,6 @@ with open("csv_file.csv") as jaison:
     for line in jaison.readlines():
         print(line)
 
-
 #xlsx file
 # import xlsrd  debe instalarse el modulo
 
